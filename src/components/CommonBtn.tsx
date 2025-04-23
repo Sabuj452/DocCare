@@ -2,7 +2,6 @@ import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import React from 'react';
 import LinearGradient from 'react-native-linear-gradient';
 
-
 type CommonBtnProps = {
   w: number; 
   h: number; 
@@ -35,7 +34,6 @@ const CommonBtn: React.FC<CommonBtnProps> = ({ w, h, txt, onClick, status }) => 
     </TouchableOpacity>
   );
 };
-
 
 const styles = StyleSheet.create({
   touchableContainer: {
